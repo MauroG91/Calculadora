@@ -1,0 +1,72 @@
+#Calc{
+  position: relative;
+  width: 188px;
+}
+
+#top, #middle, #bottom {
+width: 100%
+}
+
+#top {
+background: transparent url("../images/calc-top.png") no-repeat top center;
+height:10px;
+}
+
+#middle {
+background: transparent url("../images/calc-middle.png") repeat-y  top center;
+height: 220px;
+padding-top: 10px;
+}
+
+#buttons{
+position:relative;
+width:152px;
+margin:0 auto;
+}
+
+#display {
+width:141px;
+height:45px;
+padding:5px;
+margin:0 auto;
+background: transparent url("../images/calc-display.png") no-repeat top center;
+
+}
+
+#bottom{
+background: transparent url("../images/calc-bottom.png") no-repeat top center;
+height:0px;
+padding-bottom: 10px;
+}
+
+#buttons ul li button{
+border: 0px;
+position: relative;
+width: 34px;
+height: 27px;
+padding-top: 5px;
+padding-right: 0px;
+padding-left: 0px;
+padding-bottom: 5px;
+margin: 2px;
+background: url("../images/calc-button.png") no-repeat 0 0;
+text-align: center;
+font-size: 18px;
+font-weight:400;
+font-family:"Lucida Console", Monaco, monospace;
+float:left;
+}
+
+.clearfix{
+float:none;
+clear:both;
+}
+
+#buttons ul li button:hover{
+background-position:0 -27px;
+cursor:pointer;
+}
+#buttons ul li button:active{
+background-position:0 -54px;
+cursor:pointer;
+}
