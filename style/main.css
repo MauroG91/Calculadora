@@ -1,6 +1,7 @@
 #Calc{
   position: relative;
   width: 188px;
+  background-color: black;
 }
 
 #top, #middle, #bottom {
